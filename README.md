@@ -1,5 +1,5 @@
 # VueBasics
-##Some Basic Dynamic Webapps made while learning about Vuejs
+## Some Basic Dynamic Webapps made while learning about Vuejs
 
 #### List of apps:
 
