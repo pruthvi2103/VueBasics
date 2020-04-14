@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <input @input="onInput" />
+    <div class="inputfield">
+        <input  @input="onInput" class="" id="vin" />
         
     </div>
 </template>
@@ -13,11 +13,22 @@ export default {
             this.$emit('termChange',event.target.value);
             
         }
-    }
+    },
+
 }
+
 </script>
 
 <style scoped>
+
+input{
+    width: 75%;
+}
+
+div{
+    text-align: center;
+    margin: 20px;
+}
 
 </style>
   
